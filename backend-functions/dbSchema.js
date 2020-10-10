@@ -13,7 +13,7 @@ let db = {
   ],
   screams: [
     {
-      userHandler: 'user',
+      userHandle: 'user',
       body: 'this is the scream body',
       createdAt: '2020-10-06T01:13:37.022Z',
       likeCount: 5,
@@ -25,6 +25,16 @@ let db = {
       userHandle: 'user',
       screamId: 'asdf2354ertwtr',
       body: 'nice on mate',
+      createdAt: '2020-10-06T01:13:37.022Z'
+    }
+  ],
+  notifications: [
+    {
+      recipient: 'user',
+      sender: 'jonh',
+      read: 'true | false',
+      screamId: 'asdf876qwer097',
+      type: 'like | comment',
       createdAt: '2020-10-06T01:13:37.022Z'
     }
   ]
